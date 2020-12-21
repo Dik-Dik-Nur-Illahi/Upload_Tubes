@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <body>
+        <nav id="nav">
+            <div class="logo" id="logo">
+                <a href="#">
+                    <img src="assets/img/logo.png" alt="">
+                </a>
+            </div>
+
+            <ul>
+                <li><a href="#" >Home</a></li>
+                <li><a href="#about" class="opacity1">About</a></li>
+                <li><a href="#skill" class="opacity2">Skill</a></li>
+                <li><a href="#portfolio" class="opacity3">Portfolio</a></li>
+                <li><a href="#contact" class="opacity4">Contact</a></li>
+            </ul>
+
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+
+        <div class="container">
+            <div class="jumbotron">
+                <img class="foto" src="assets/img/me.jpg" alt="">
+                <h1>Dik Dik Nur Illahi</h1>
+                <p>Wellcome To My Website, Thank you To Visit</p>
+            </div>
+
+            <div class="about" >
+                <div class="about-text">
+                    <h1 id="about">About Me</h1>
+                    <p>Hallo Nama saya Dik Dik Nur Illahi, Saya tinggal dipangalengan Kabupaten Bandung, Pangalengan terletak sebelah selatan Bandung.
+                        Sekarang saya bersekolah di Universitas Pasundan dengan Jurusan Informatika, Saya baru semester 1 bisa dibilang masih Maba.
+                        Sebelum Berkuliah di Universitas Pasundan saya bersekolah di SMAN 1 Pangalengan dengan jurusan Mipa. Hobi saya yaitu Bermain Game
+                        dan Automotif. saya senang bisa berkuliah di Universitas Pasundan karena kurikulumnya yang menyenangkan, ya walaupun saya harus berkuliah
+                        secara online/daring, saya berharap Pandemi Covid-19 Ini segera berakhir supaya Perkuliahan dapat di gelar secara offline
+                    </p>
+                </div>
+            </div>
+
+
+
+
+    <script src="js/script.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script>
+    $('.skill-per').each(function(){
+    var $this = $(this);
+    var per = $this.attr('per');
+    $this.css("width",per+'%');
+    $({animatedValue: 0}).animate({animatedValue: per},{
+        duration: 1000,
+        step: function(){
+            $this.attr('per',Math.floor(this.animatedValue) + '%');
+        },
+        complete: function(){
+            $this.attr('per',Math.floor(this.animatedValue) + '%');
+        }
+    });
+    });
+
+    </script>
+    </body>
+</html>

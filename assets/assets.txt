@@ -1,0 +1,7 @@
+img
+ig.png = https://www.bing.com/images/search?view=detailV2&ccid=fb0LUcIK&id=F6EF2BB5F6A6B539349C411643EDA7F56C99CD75&thid=OIP.fb0LUcIKaVkBqExMCDUA9gHaFj&mediaurl=http%3a%2f%2fsguru.org%2fwp-content%2fuploads%2f2018%2f01%2finstagram-logo-black-transparent.png&exph=1200&expw=1600&q=logo+instagram+black&simid=608045542807635327&ck=38636F85D4B8F55C36B1F4C8A719B8C9&selectedIndex=0&FORM=IRPRST&ajaxhist=0
+fb.png = https://www.bing.com/images/search?view=detailV2&ccid=Amcd6uom&id=8FF475FD63762563FBF476988C2F308F040D8CF6&thid=OIP.Amcd6uomcBrkzfHXrg14gAHaHa&mediaurl=https%3a%2f%2fwww.freeiconspng.com%2fuploads%2ffacebook-logo-png-white-image-galleries--imagekbm-25.png&exph=1200&expw=1200&q=logo+facebook+black+and+white+png&simid=608052973082184180&ck=55CF33317992FC65E512624E16B8D9D9&selectedIndex=0&FORM=IRPRST&ajaxhist=0
+wa.png = https://www.bing.com/images/search?view=detailV2&ccid=MYtqYW1O&id=7F14865AD98B7EE5A0E07B6A8B268CB3EC93EE0A&thid=OIP.MYtqYW1OWJODbr1UBzfeowHaEn&mediaurl=https%3a%2f%2fimg.favpng.com%2f5%2f2%2f25%2fwhatsapp-logo-scalable-vector-graphics-icon-png-favpng-0U36y4TGAhHBnL8EZG9i0w7mL.jpg&exph=512&expw=820&q=logo+whatapp+black+and+white+&simid=607991692537827123&ck=9653582F3EBE0B4E3DA8BBE9799B6ECA&selectedIndex=8&FORM=IRPRST&ajaxhist=0
+
+font
+Montserrat = https://fonts.google.com/specimen/Montserrat?query=Montserrat
